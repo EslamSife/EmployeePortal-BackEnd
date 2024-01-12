@@ -1,6 +1,7 @@
 package com.stc.viewemployee.crud.dto;
 
 
+import jakarta.validation.constraints.NotNull;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,6 +10,8 @@ import lombok.Setter;
 @Getter
 @Builder
 public class EmployeeDTO {
+
+    @NotNull(message = "First name must not be null")
     private String fName;
     private String lName;
     private String phone;
