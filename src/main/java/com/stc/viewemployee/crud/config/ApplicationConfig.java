@@ -1,6 +1,7 @@
 package com.stc.viewemployee.crud.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
@@ -12,6 +13,8 @@ import static org.springframework.http.HttpHeaders.*;
 import static org.springframework.http.HttpMethod.*;
 import static org.springframework.web.bind.annotation.RequestMethod.PATCH;
 
+
+@Configuration
 public class ApplicationConfig {
 
     @Bean
