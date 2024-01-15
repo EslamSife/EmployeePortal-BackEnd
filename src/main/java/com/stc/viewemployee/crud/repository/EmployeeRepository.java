@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:8080")
 @RepositoryRestResource(collectionResourceRel = "employeesList", path = "employees")
 public interface EmployeeRepository extends JpaRepository<Employee, Integer>, JpaSpecificationExecutor<Employee> {
 }
