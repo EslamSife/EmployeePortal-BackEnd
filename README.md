@@ -15,7 +15,8 @@ docker pull eslamsife91/employee-portal-front-end
 docker pull eslamsife91/employee-portal-spring-backend
 
 
-docker run -p 8080:80 eslamsife91/employee-portal-front-end
+docker run -p 9090:8080 eslamsife91/employee-portal-spring-backend
+
 
 
 docker run -p 8080:80 eslamsife91/employee-portal-front-end
